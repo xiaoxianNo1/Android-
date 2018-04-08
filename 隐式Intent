@@ -1,2 +1,7 @@
+//跳转Activity
 Intent intent1=new Intent(MainActivity.this,IntentActivity2.class);
                 startActivity(intent1);
+
+//隐式跳转链接
+Intent intent2=new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.baidu.com"));
+                startActivity(intent2);
