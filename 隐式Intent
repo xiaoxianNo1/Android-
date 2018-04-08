@@ -1,0 +1,2 @@
+Intent intent1=new Intent(MainActivity.this,IntentActivity2.class);
+                startActivity(intent1);
